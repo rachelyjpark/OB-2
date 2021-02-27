@@ -1,5 +1,5 @@
 body {
-  height: 150vh;
+  height: 50vh;
 
   background:#C5D2D0;
   margin: 10%;
@@ -47,7 +47,12 @@ display: flex;
 
 
 @media only screen and (min-width: 800px) {
+body {
+  height: 150vh;
 
+  background:#C5D2D0;
+  margin: 10%;
+}
   
 .text-1 {
   position: relative;
@@ -64,6 +69,19 @@ display: flex;
 .text-2 {
     position: relative;
   top: 450px;
+left: 5%;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+ font-size: 30px;
+ 
+
+}
+.text-3 {
+    position: relative;
+  top: 850px;
 display: flex;
    justify-content: center;
   text-align: center;
@@ -71,7 +89,49 @@ display: flex;
   font-family: helvetica;
  font-size: 30px;
   padding-right: 15%;
+ 
 
+}
+
+#mind {
+  position: relative;
+  top: 200px;
+  left: 50px;
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+ font-size: 70px;
+ padding-right: 15%;
+  animation-name: mind;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes mind {
+  0% {
+        letter-spacing: 1px;
+    color: #383A44;
+  }
+  25% {
+        letter-spacing: 3px;
+    color: #d4d4d4;
+  }
+  50% {
+    letter-spacing: 5px;
+    color: #383A44;
+  }
+  75% {
+        letter-spacing: 3px;
+    color: #d4d4d4;
+  }
+  100% {
+        letter-spacing: 1px;
+    color: #383A44;
+  }
 }
 
 }
