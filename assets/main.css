@@ -1,137 +1,153 @@
 body {
-  height: 50vh;
-
-  background:#C5D2D0;
-  margin: 10%;
+    height: 50vh;
+    background:#C5D2D0;
+    margin: 10%;
 }
+
 .background {
-  background-color: #E3C080;
-  position: fixed;
-top: 0;
-  bottom: 0;
-right: 0;
-  height: 250vh;
-  width: 15%;
-  border-left: 6px solid black;
-  display: block;
-  text-decoration: none;
-
+    background-color:  #E3C080;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 250vh;
+    width: 15%;
+    border-left: 6px solid black;
+    display: block;
+    text-decoration: none;
 }
 
 
-.text-1 {
-  position: relative;
-  top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
-  padding-right: 30%;
-}
-
-.text-2 {
+  .text-1 {
     position: relative;
-  top: 350px;
-display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 20px;
- padding-right: 30%;
-}
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 30%;
+  }
+
+  .text-2 {
+    position: relative;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 30%;
+  }
 
 
 
 
 @media only screen and (min-width: 800px) {
-body {
-  height: 150vh;
-
-  background:#C5D2D0;
-  margin: 10%;
-}
-  
-.text-1 {
-  position: relative;
-  top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
-  font-size: 30px;
-  padding-right: 15%;
-
-}
-.text-2 {
+  body {
+    height: 150vh;
+    background:#C5D2D0;
+    margin: 10%;
+  }
+  .background {
+      background-color: #E3C080;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      height: 250vh;
+      width: 15%;
+      border-left: 6px solid black;
+      display: block;
+      text-decoration: none;
+  } 
+  .text-1 {
     position: relative;
-  top: 450px;
-left: 5%;
-display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
- font-size: 30px;
- 
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-right: 15%;
+  }
 
-}
-.text-3 {
+  .text-2 {
     position: relative;
-  top: 850px;
-display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
- font-size: 30px;
-  padding-right: 15%;
- 
+    top: 450px;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
 
-}
+  .text-3 {
+    position: relative;
+    top: 850px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-right: 15%;
+  }
 
-#mind {
-  position: relative;
-  top: 200px;
-  left: 50px;
-  display: flex;
-   justify-content: center;
-  text-align: center;
-  color: white;
-  font-family: helvetica;
- font-size: 70px;
- padding-right: 15%;
-  animation-name: mind;
-  animation-duration: 15s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+  #mind {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    padding-right: 15%;
+    animation-name: mind;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
 
-}
-
-@keyframes mind {
-  0% {
+  @keyframes mind {
+    0% {
         letter-spacing: 1px;
-    color: #383A44;
-  }
-  25% {
-        letter-spacing: 3px;
-    color: #d4d4d4;
-  }
-  50% {
-    letter-spacing: 5px;
-    color: #383A44;
-  }
-  75% {
-        letter-spacing: 3px;
-    color: #d4d4d4;
-  }
-  100% {
+        color: #C5D2D0;
+    }
+    25% {
+        letter-spacing: 4px;
+        color: #8ba6a2;
+    }
+    50% {
+        letter-spacing: 12px;
+        color: #58736f;
+    }
+    75% {
+        letter-spacing: 4px;
+        color: #161c1b;
+    }
+    100% {
         letter-spacing: 1px;
-    color: #383A44;
-  }
-}
+        color: #C5D2D0;
+    }
 
 }
